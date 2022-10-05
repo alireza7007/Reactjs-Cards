@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="slide-container">
+
+        <div class="wrapper">
+            <div class="arrow-wrapper">
+                <div class="round">
+                    <div id="cta">
+                        <span class="arrow prev"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="clash-card barbarian">
+                <div class="clash-card__image clash-card__image--barbarian">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png" alt="barbarian" />
+                </div>
+                <div class="clash-card__level clash-card__level--barbarian">Level 4</div>
+                <div class="clash-card__unit-name">The Barbarian</div>
+                <div class="clash-card__unit-description">
+                    The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for
+                    destruction. He has Killer yellow horseshoe mustache.
+                </div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+                    <div class="one-third">
+                        <div class="stat">20<sup>S</sup></div>
+                        <div class="stat-value">Training</div>
+                    </div>
+
+                    <div class="one-third">
+                        <div class="stat">16</div>
+                        <div class="stat-value">Speed</div>
+                    </div>
+
+                    <div class="one-third no-border">
+                        <div class="stat">150</div>
+                        <div class="stat-value">Cost</div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end clash-card barbarian-->
+            <div class="arrow-wrapper">
+                <div class="round">
+                    <div id="cta">
+                        <span class="arrow next"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end wrapper -->
+
+
+
+        <div class="wrapper">
+            <div class="clash-card archer">
+                <div class="clash-card__image clash-card__image--archer">
+                    <img src="data:image/jpeg;base64,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" alt="archer" />
+                </div>
+                <div class="clash-card__level clash-card__level--archer">Level 5</div>
+                <div class="clash-card__unit-name">The Archer</div>
+                <div class="clash-card__unit-description">
+                    The Archer is a female warrior with sharp eyes. She wears a short, light green dress, a hooded cape,
+                    a leather belt and an attached small pouch.
+                </div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+                    <div class="one-third">
+                        <div class="stat">25<sup>S</sup></div>
+                        <div class="stat-value">Training</div>
+                    </div>
+
+                    <div class="one-third">
+                        <div class="stat">24</div>
+                        <div class="stat-value">Speed</div>
+                    </div>
+
+                    <div class="one-third no-border">
+                        <div class="stat">300</div>
+                        <div class="stat-value">Cost</div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end clash-card archer-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+            <div class="clash-card giant">
+                <div class="clash-card__image clash-card__image--giant">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant.png" alt="giant" />
+                </div>
+                <div class="clash-card__level clash-card__level--giant">Level 5</div>
+                <div class="clash-card__unit-name">The Giant</div>
+                <div class="clash-card__unit-description">
+                    Slow, steady and powerful, Giants are massive warriors that soak up huge amounts of damage. Show
+                    them a turret or cannon and you'll see their fury unleashed!
+                </div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+                    <div class="one-third">
+                        <div class="stat">2<sup>M</sup></div>
+                        <div class="stat-value">Training</div>
+                    </div>
+
+                    <div class="one-third">
+                        <div class="stat">12</div>
+                        <div class="stat-value">Speed</div>
+                    </div>
+
+                    <div class="one-third no-border">
+                        <div class="stat">2250</div>
+                        <div class="stat-value">Cost</div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end clash-card giant-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+            <div class="clash-card goblin">
+                <div class="clash-card__image clash-card__image--goblin">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin.png" alt="goblin" />
+                </div>
+                <div class="clash-card__level clash-card__level--goblin">Level 5</div>
+                <div class="clash-card__unit-name">The Goblin</div>
+                <div class="clash-card__unit-description">
+                    These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap,
+                    and their hunger for resources is limitless.
+                </div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+                    <div class="one-third">
+                        <div class="stat">30<sup>S</sup></div>
+                        <div class="stat-value">Training</div>
+                    </div>
+
+                    <div class="one-third">
+                        <div class="stat">32</div>
+                        <div class="stat-value">Speed</div>
+                    </div>
+
+                    <div class="one-third no-border">
+                        <div class="stat">100</div>
+                        <div class="stat-value">Cost</div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end clash-card goblin-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+            <div class="clash-card wizard">
+                <div class="clash-card__image clash-card__image--wizard">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png" alt="wizard" />
+                </div>
+                <div class="clash-card__level clash-card__level--wizard">Level 6</div>
+                <div class="clash-card__unit-name">The Wizard</div>
+                <div class="clash-card__unit-description">
+                    The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and
+                    cast concentrated blasts of destruction on anything, land or sky!
+                </div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+                    <div class="one-third">
+                        <div class="stat">5<sup>M</sup></div>
+                        <div class="stat-value">Training</div>
+                    </div>
+
+                    <div class="one-third">
+                        <div class="stat">16</div>
+                        <div class="stat-value">Speed</div>
+                    </div>
+
+                    <div class="one-third no-border">
+                        <div class="stat">4000</div>
+                        <div class="stat-value">Cost</div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end clash-card wizard-->
+        </div> <!-- end wrapper -->
+
+    </div> <!-- end container -->
+</body>
+
+</html>
